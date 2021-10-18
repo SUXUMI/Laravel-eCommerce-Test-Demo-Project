@@ -1,0 +1,7 @@
+/data/mysql/**
+*.backup*
+*.test*
+*.original*
+.idea
+Instructions.md
+Structure.md

@@ -1,0 +1,1 @@
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -subj "/C=GE/SN=Tbilisi/L=Tbilisi/O=org.local/OU=unit.local/CN=laravel.local"  -addext "subjectAltName=email:admin@admin.ge subjectAltName=DNS:laravel.local" -keyout ./certs/nginx-selfsigned.key -out ./certs/nginx-selfsigned.crt
